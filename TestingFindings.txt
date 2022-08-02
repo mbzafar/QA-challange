@@ -1,0 +1,14 @@
+Here are some findings from testing the calc. (These scenarios are not covered in automation tests)
+- Calculator should only take numeric values as input (for now text, special character etc.. are allowed too)
+- Divide and multiply signs should not be allowed in the start of the first input.
+- Multiple Decimals and arithmetic sings should not be allowed to be input together. 
+- Keyboard press enter should act as pressing "equal/result" sign. 
+- While using keyboard if the calculator keypad is pressed for a digit or arithmetic operation, the focus from the input field is lost,
+  the user has to click the input field again in order to enter values using keyboard. 
+- Using calculator kepad and computer keybaord together for a long equation: Sometimes the focus of the input goes in the middle of the existing values.
+- The infinity result is shown like "333333333e+44" while for other calculators it is shown like "33333e34". (No idea if it is a problem)
+- If a large value is added to the calculator, after a cretin number of digits, the user cannot see the input value
+- if '=' is pressed while the input field is empty, 'undefined' message is shown in the input. There should be nothing shown 
+- In the result, Round off vales after decimals acts different than standard calculators. 
+- The color around the calculator can be irritating for some users, specially visually impaired users. 
+- Accessibility features: should be added if in scope. 

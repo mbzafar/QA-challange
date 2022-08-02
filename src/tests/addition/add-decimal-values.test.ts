@@ -4,7 +4,7 @@ import { HomePage } from "../../pages/homePage";
 import { NumberInput } from "../../pages/numericInput";
 
 
-test("Add decimal and integer values", async ({ page }) => {
+test("Add decimal and integer values using keybaord", async ({ page }) => {
     const homePage = new HomePage(page);
     const numberInput = new NumberInput(page);
     const arithmeticFunctions = new ArithmeticFunctions(page);
